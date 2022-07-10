@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Classes.SplashScreen">
+
+    <LinearLayout
+        android:id="@+id/linear_splash"
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:background="@drawable/background_splash"
+        android:orientation="horizontal">
+
+    </LinearLayout>
+
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/lottie"
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:layout_centerInParent="true"
+        app:lottie_autoPlay="true"
+        app:lottie_rawRes="@raw/splash">
+
+    </com.airbnb.lottie.LottieAnimationView>
+
+    <TextView
+        android:id="@+id/textView_splash"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/linear_splash"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:text="CORONATURK"
+        android:textSize="25sp"
+        android:textStyle="bold|italic" />
+
+    <LinearLayout
+        android:id="@+id/linear_splash_reversed"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_below="@id/textView_splash"
+        android:background="@drawable/background_splash_reversed"
+        android:orientation="horizontal">
+
+    </LinearLayout>
+
+
+
+
+
+</RelativeLayout>

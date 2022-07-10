@@ -1,0 +1,61 @@
+<resources>
+    <string name="app_name">CapstoneProject</string>
+
+    <string name="intro_description">Thanks to CoronaTurk, we aim to make you more conscious individuals against this disease by following all statistics on the corona virus throughout the country through updated data on a daily basis.</string>
+    <string name="intro_description2">It is now easier to protect yourself from the disease by opening the location services and following the temperature map we have created on the map of Turkey according to the densities of the current corona patient numbers.</string>
+    <string name="intro_description3">If you activate the Bluetooth service, if there is another user actively using the application around, you will be informed by the application according to whether or not they exceed the social distance.</string>
+    <string name="intro_description4">Thanks to the up-to-date statistics we have provided, you will be able to follow the worldwide pandemic easily under your hand.</string>
+
+    <string name="intro_title">Health First</string>
+    <string name="intro_title2">Map Colorization</string>
+    <string name="intro_title3">Social Distance</string>
+    <string name="intro_title4">Daily Statistics</string>
+
+    <string-array name="GenderList">
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+
+    <string-array name="Ilceler">
+        <item>Adalar</item>
+        <item>Arnavutköy</item>
+        <item>Ataşehir </item>
+        <item>Avcılar </item>
+        <item>Bağcılar </item>
+        <item>Bahçelievler </item>
+        <item>Bakırköy </item>
+        <item>Başakşehir </item>
+        <item>Bayrampaşa </item>
+        <item>Beşiktaş </item>
+        <item>Beykoz </item>
+        <item>Beylikdüzü</item>
+        <item>Beyoğlu</item>
+        <item>Büyükçekmece </item>
+        <item>Çekmeköy</item>
+        <item>Esenler</item>
+        <item>Esenyurt</item>
+        <item>Eyüp</item>
+        <item>Fatih</item>
+        <item>Gaziosmanpaşa</item>
+        <item>Güngören</item>
+        <item>Kadıköy</item>
+        <item>Kağıthane</item>
+        <item>Kartal</item>
+        <item>Küçükçekmece</item>
+        <item>Maltepe</item>
+        <item>Pendik</item>
+        <item>Sancaktepe</item>
+        <item>Sarıyer</item>
+        <item>Silivri</item>
+        <item>Sultanbeyli</item>
+        <item>Sultangazi</item>
+        <item>Şile</item>
+        <item>Şişli</item>
+        <item>Tuzla</item>
+        <item>Ümraniye</item>
+        <item>Üsküdar</item>
+        <item>Zeytinburnu</item>
+    </string-array>
+
+
+</resources>
